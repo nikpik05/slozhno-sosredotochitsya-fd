@@ -308,7 +308,7 @@
     min-height: 768px;
   }
 
-  .header__title{
+  .header__title {
     font-size: var(--title-clamp-large);
   }
 
