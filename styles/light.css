@@ -20,6 +20,7 @@
   --card-text-color:#353430;
   --text-shadow-header: #FF8DCB;
   --color-opacity: #32312D66;
+  --rec-light: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,9 +35,6 @@
     --card-text-color:#353430;
     --text-shadow-header: #FF8DCB;
     --color-opacity: #32312D66;
-  }
-
-  .rec-label {
-    display: none;
-  }
+    --rec-light: hidden;
+}
 }
